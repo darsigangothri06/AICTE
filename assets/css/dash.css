@@ -1,0 +1,597 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+}
+
+#logo {
+height: 108px;
+}
+
+.top-nav-collapse {
+	background-color: #3F729B !important;
+}
+
+#modi{
+  border-radius: 60px;
+  position: relative;
+
+  width: 190px;
+  height: 190px;
+  border-radius: 50px;
+}
+
+#textm{
+text-align: justify;
+}
+#initiative{
+  padding-top: 10px;
+}
+
+.mainImg{
+width: 100%;
+height: 300px;
+background-size: cover;
+
+}
+
+.carousel-caption{
+  margin-bottom: 136px;
+}
+.carousel-inner:hover .mainImg{
+
+  filter: grayscale(1) blur(3px);
+  -webkit-filter: grayscale(1) blur(3px);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+
+}
+.carouselP1{
+padding: 10px 20px 10px 0px;
+font-size: 22px;
+width: 100%;
+position: relative;
+right: 60px;
+bottom: 40px;
+left: 40px;
+margin-bottom: 20px;
+display: block;
+ margin-top:0px;
+margin-right:10px;
+margin-left:0px;
+color:#898989;
+font-family: 'Dosis', sans-serif;
+}
+.carouselP2{
+color:#cb9f6b;
+font-size: 20px;
+position: relative;
+bottom: 30px;
+font-family: 'Dosis', sans-serif;
+}
+.carouselP3{
+font-size: 18px;
+position: relative;
+bottom: 20px;
+font-family: 'Dosis', sans-serif;
+}
+.logoimg1{
+position: relative;
+bottom: 30px;
+width: 90px;
+height: 90px;
+border-radius: 50px;
+}
+.logoimg2{
+position: relative;
+bottom: 30px;
+width: 90px;
+height: 90px;
+border-radius: 50px;
+}
+.testimonials{
+font-size: 60px;
+position: relative;
+bottom: 30px;
+font-family: 'Alegreya', serif;
+font-type: bold;
+}
+
+.parallax-window {
+  min-height: 450px;
+  background: transparent;
+}
+#newvision p{
+font-size: 21px;
+}
+#newvision h3{
+font-size: 30px;
+}
+#events {
+  background: url("http://i.imgur.com/hotMAqv.png");
+}
+
+.events {
+  font-size: 60px;
+  font-family: 'Chewy', cursive;
+  padding: 40px;
+}
+
+h3 {
+  font-style: italic;
+  font-family: monospace;
+}
+
+p {
+  text-align: justify;
+
+}
+
+#tab {
+  background-color: purple;
+  border-radius: 60px;
+}
+
+
+
+#mySlides {
+  display: none
+}
+
+#demo {
+  cursor: pointer;
+
+}
+#demo h3{
+  text-align: center;
+  line-height: normal;
+}
+#gf {
+  width: 300px;
+}
+
+#gb {
+  text-align: right;
+}
+
+#new {
+  background-color: red
+}
+
+#r3 {
+  font-size: 30px;
+  font-family: fantasy;
+}
+
+#large {
+  text-align: center;
+}
+
+#caps {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 7px;
+}
+
+#kill {
+  font-size: 45px;
+  font-family: Comic Sans MS;
+}
+
+#line {
+  height: 130px;
+  width: 480px;
+  border: 0px;
+}
+
+#moto {
+  text-align: center;
+}
+
+#car {
+  width: 100%;
+  height: auto;
+}
+
+#mongo2 {
+  color: orange;
+  font-size: 50px;
+  font-family: Courier New;
+  font-weight: bold;
+}
+
+#mongo1 {
+  color: green;
+  font-size: 50px;
+  font-family: Courier New;
+  font-weight: bold;
+}
+
+a {
+  padding: 25px 25px 25px 25px;
+}
+
+#hdd {
+  background-position: center;
+}
+
+#lcd {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
+}
+
+#hd {
+  padding-top: 40px;
+}
+
+#DD {
+  padding-top: 20px;
+}
+
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+#paneledit {
+  background: url("http://i.imgur.com/hotMAqv.png");
+}
+
+
+#panelimg {
+  float: right;
+  margin-top: 50px;
+  padding: 10px 20px 10px 20px
+}
+
+#mooch {
+  position: relative;
+  bottom: 30px;
+}
+
+#cookimg {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+
+p:hover{
+  color: orange;
+
+}
+#ctr{
+  font-size: 40px;
+  font-family:cursive;
+}
+h1:hover{
+  font-style: italic;
+  color: green;
+}
+h2:hover{
+  font-style: italic;
+  color: green;
+}
+#pic1{
+  margin-left: 25%;
+  text-align: center;
+  width: 50%;
+}
+#pic1:hover{
+  border-radius: 30px;
+}
+#text2 {
+  font-size: 15px;
+  text-align: center;
+  justify-content:
+  font-family: monospace;
+}
+#motivation{
+  align-items: center;
+  width: 95%;
+}
+
+/*
+input[type=text] {
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 40px;
+  font-size: 16px;
+  background-color: white;
+
+
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  height: 50%;
+  width: 100%;
+}
+*/
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+  line-height: 1;
+  width: 100% !important;
+  height: 602px !important;
+  max-width: 100% !important;
+}
+.caption{
+ color: orange;
+}
+
+.main-text {
+  position: absolute;
+  top: 50px;
+  width: 96.66666666666666%;
+  color: #FFF;
+}
+
+.btn-min-block {
+  min-width: 170px;
+  line-height: 26px;
+}
+
+.btn-clear {
+  color: #FFF;
+  background-color: transparent;
+  border-color: #FFF;
+  margin-right: 15px;
+}
+
+.btn-clear:hover {
+  color: #000;
+  background-color: #FFF;
+}
+
+#myFooter {
+  background-color: #3a3f46;
+  color: white;
+}
+
+#myFooter .row {
+  margin-bottom: 60px;
+}
+
+#myFooter .info {
+  text-align: justify;
+  color: #afb0b1;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter .logo {
+  margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a {
+  color: white;
+  font-size: 28px;
+  float: left;
+  font-weight: bold;
+  line-height: 68px;
+  margin: 0;
+  padding: 0;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .second-bar {
+  text-align: center;
+  background-color: #33373e;
+  text-align: center;
+}
+
+#myFooter .second-bar a {
+  font-size: 22px;
+  color: #9fa3a9;
+  padding: 10px;
+  transition: 0.2s;
+  line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+  text-decoration: none;
+}
+
+#myFooter .social-icons {
+  float: right;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter .google:hover {
+  color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+  color: #00aced;
+}
+
+.content {
+  flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+  min-height: 200px;
+}
+
+#myFooter {
+  flex: 0 0 auto;
+  -webkit-flex: 0 0 auto;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+.navbar-header {
+float: none;
+}
+.navbar-left,.navbar-right {
+float: none !important;
+}
+.navbar-toggle {
+display: block;
+}
+.navbar-collapse {
+border-top: 1px solid transparent;
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-fixed-top {
+top: 0;
+border-width: 0 0 1px;
+}
+.navbar-collapse.collapse {
+display: none!important;
+}
+.navbar-nav {
+float: none!important;
+margin-top: 7.5px;
+}
+.navbar-nav>li {
+float: none;
+}
+.navbar-nav>li>a {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.collapse.in{
+display:block !important;
+}
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+
+  .carousel-inner>.item>a>img,
+  .carousel-inner>.item>img {
+    width: 100% !important;
+    height: 250px !important;
+    max-width: 100% !important;
+  }
+#carminister>.item>a>img,
+#carminister>.item>img {
+  width: 100% !important;
+  height: 768px !important;
+  max-width: 100% !important;
+}
+
+     .caption{
+      font-size: 15px !important;
+      color: orange;
+    }
+
+  #moto {
+      text-align: center;
+      width: 100%;
+  }
+  #panelimg img {
+    width: 100%;
+    height:auto;
+  }
+#schm img {
+  width: 100%;
+}
+#logo {
+  width: 100%;}
+
+#pic1{
+  align-items: center;
+  width: 100%;
+}
+.carousel-caption {
+    margin-bottom: 0;
+}
+#newvision p{
+font-size: 14px;
+text-align: justify;
+}
+#newvision h3{
+  font-size: 18px;
+  text-align: center;
+}
+.future{
+  font-size: 22px;
+}
+#paneledit p{
+  font-size: 15px;
+}
+#kill ,#mongo2{
+  font-size: 33px;
+}
+.testimonials{
+  font-size: 36px;
+  bottom: 50px;
+}
+#demo h3{
+  left: 4px !important;
+}
+}
