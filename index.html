@@ -81,8 +81,6 @@
     <!-- nav section starts --->
     <nav class="navigation_bar navbar navbar-inverse navbar-fixed-top animated fadeInDown scrolling-navbar delay-0.5s">
       <div class="container-fluid">
-        <!-- google translation button -->
-        <div id="google_translate_element" align="center"></div>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
             <span class="icon-bar"></span>
@@ -91,15 +89,16 @@
           </button>
           <a class="navbar-brand" href="javascript:void(0)"  class="official">MHRD</a>
         </div>
-                                
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html" title="Home">Home</a></li>
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" title="About Ministry of Human Resource Develpoment"  data-hover="dropdown" data-animations="fadeInDown fadeInRight fadeInUp fadeInLeft ">About MHRD <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <!-- bot link -->
 
-              <!-- <li><a href="https://l.messenger.com/l.php?u=http%3A%2F%2Fm.me%2F2085678438385202&h=ATN572ZDTrG-FCEp4hWdAzd6swVmZ1ZqgX2zYxzWvANOtjSdXaEkDuescWqtOcFsWuzycn4gF_QzbPtAHuftGa9cmGt_kCLybs1PnCKfUgbP7E0eE-Tj6ZfakwnM_kmOG7LovjDz_g0A-jI" title="bot">BOT</a></li>
+                <!--
+                bot link if it is usable we use this
+
+                <li><a href="https://l.messenger.com/l.php?u=http%3A%2F%2Fm.me%2F2085678438385202&h=ATN572ZDTrG-FCEp4hWdAzd6swVmZ1ZqgX2zYxzWvANOtjSdXaEkDuescWqtOcFsWuzycn4gF_QzbPtAHuftGa9cmGt_kCLybs1PnCKfUgbP7E0eE-Tj6ZfakwnM_kmOG7LovjDz_g0A-jI" title="bot">BOT</a></li>
               -->
               <li><a href="http://mhrd.gov.in/constitutional-provision" title="Constitutional Provision">Constitutional Provision</a></li>
               <li><a href="http://mhrd.gov.in/allocation-business" title="Allocation of Business Rules">Allocation of Business Rules</a></li>
@@ -128,14 +127,19 @@
               <li><a href="http://mhrd.gov.in/apex-level-bodies" title="Higher Education">Higher Education</a></li>
             </ul>
           </li>
+          <!-- google translation button -->
+          <!-- <li>
+            <div id="google_translate_element"></div>
+          </li> -->
 
-             <!-- Need to correct it   <input type="text" name="search" placeholder="Search..">  -->
+          <!--    Need to correct it   <input type="text" name="search" placeholder="Search..">  -->
 
         </ul>
 
         <!--login signup links-->
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#" onclick="changeMode();"><span class="glyphicon glyphicon-sunglasses"></span>&nbsp;<span id="mode_title">dark</span></a></li>
+          <li><a href="#" data-toggle="modal" data-target="#"><span class="glyphicon glyphicon-globe"></span> Lang</a></li>
+          <li><a href="#" onclick="changeMode();"><span class="glyphicon glyphicon-sunglasses"></span>&nbsp;<span id="mode_title">Dark</span></a></li>
           <li><a href="#"  data-toggle="modal" data-target="#signupModal"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
           <li><a href="#" data-toggle="modal" data-target="#loginModal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
@@ -152,15 +156,19 @@
 <head>
   <header>
     <!--logo of mhrd-->
-    <div class="container-fluid header" id="hd">
-      <img src="https://aicte-website.vercel.app/images/logo.png" alt="border" class="img-rounded pull-left" id="logo">
-      <p>All India Council For<br/>Technical Education</p>
+    <div class="google" style="display: flex;">
+      <div class="container-fluid header" id="hd" style="">
+        <img src="https://aicte-website.vercel.app/images/logo.png" alt="border" class="img-rounded pull-left" id="logo">
+        <p>All India Council For<br/>Technical Education</p>
+      </div>
+      <div id="google_translate_element" style=""></div>
     </div>
     <!--ends logo section-->
 
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
+          
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -689,11 +697,11 @@
                 if($("body").hasClass("dark")){
                   $("body").removeClass("dark");
                   $("body").addClass("light");
-                  document.getElementById("mode_title").innerHTML = "dark"
+                  document.getElementById("mode_title").innerHTML = "Dark"
                 }else{
                   $("body").addClass("dark");
                   $("body").removeClass("light");
-                  document.getElementById("mode_title").innerHTML = "light"
+                  document.getElementById("mode_title").innerHTML = "Light"
                 }
               }
               </script>
